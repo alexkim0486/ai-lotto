@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- 기본 메타 -->
+    <title>AI 로또 — 실제 데이터 기반 번호 추천</title>
+    <meta name="description" content="실제 당첨 데이터 100회차를 AI가 분석해 로또 번호를 추천합니다." />
+
+    <!-- PWA: 테마/배경색 -->
+    <meta name="theme-color" content="#f5c518" />
+    <meta name="background-color" content="#090912" />
+
+    <!-- PWA: manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- iOS Safari PWA 지원 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AI 로또" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
+
+    <!-- Android Chrome -->
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- 아이콘 -->
+    <link rel="icon" type="image/svg+xml" href="/icon-192.svg" />
+
+    <!-- Safe area inset (노치/홈 바 대응) -->
+    <style>
+      :root {
+        --sat: env(safe-area-inset-top, 0px);
+        --sab: env(safe-area-inset-bottom, 0px);
+      }
+      body {
+        padding-top: var(--sat);
+        padding-bottom: var(--sab);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
