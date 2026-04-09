@@ -733,7 +733,7 @@ export default function App() {
               animation: "shimmer 3s linear infinite",
             }}
           >
-            🎱 AI {lang === "ko" ? "로또" : "Lotto"}
+            🎱 {lang === "ko" ? "대박로또" : "Daebak Lotto"}
           </h1>
           <p style={{ fontSize: 11, color: "#555", marginTop: 4, letterSpacing: 1 }}>
             {t.appSubtitle}
@@ -1553,15 +1553,15 @@ export default function App() {
             textAlign: "center",
           }}>
             <div>
-              {lang === "ko" ? "상호" : "Company"}: 팡팡기획 &nbsp;|&nbsp;
-              {lang === "ko" ? "대표" : "CEO"}: 이원석 &nbsp;|&nbsp;
-              {lang === "ko" ? "사업자등록번호" : "Reg. No"}: 611-34-01648
+              {lang === "ko" ? "상호" : "Company"}: 로또 대박 &nbsp;|&nbsp;
+              {lang === "ko" ? "대표" : "CEO"}: 김현욱 &nbsp;|&nbsp;
+              {lang === "ko" ? "사업자등록번호" : "Reg. No"}: 000-00-00000
             </div>
             <div>
-              {lang === "ko" ? "통신판매업신고" : "E-commerce"}: 제2025-전북완주-0230호
+              {lang === "ko" ? "통신판매업신고" : "E-commerce"}: 제2026-광주서구-0230호
             </div>
             <div>
-              {lang === "ko" ? "주소" : "Address"}: 전북특별자치도 완주군 고산면 서봉소농길 40-14
+              {lang === "ko" ? "주소" : "Address"}: 광주광역시 서구 화정로 278
             </div>
             <div style={{ marginTop: 4 }}>
               {lang === "ko" ? "고객센터" : "Support"} ▼
@@ -1572,7 +1572,7 @@ export default function App() {
           <p style={{
             fontSize: 11, color: "#333", textAlign: "center", marginTop: 16,
           }}>
-            © 2026 팡팡로또. All rights reserved.
+            © 2026 대박로또. All rights reserved.
           </p>
         </footer>
 
